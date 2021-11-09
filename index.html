@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Snake</title>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" />
 	<style>
 		.field{top:0;left: 0;position: absolute;border: 2px solid #000;}
 		.snakebody{width: 20px;height: 20px;position: absolute;background-color: green;background:url('snke.png');}
@@ -12,15 +13,22 @@
 		#right{width: 200px;height: 200px;position: absolute;left: 410px;top:0px;background-color: grey;}
 		#right p{font-size: 50px;text-align: center;}
 		#count{width: 200px;height: 204px;position: absolute;left: 410px;top:200px;background-color: grey;font-size: 100px;text-align: center;}
+		h1 {
+			font-family: "Raleway", sans-serif;
+			color: #D43333;
+		}
+		p {
+			font-family: "Raleway", sans-serif;
+		}	
 	</style>
 </head>
 <body>
 	<div id="snake"></div>
 	<div id="field"></div>
 	<div id="down">
-	<p>Snake</p>
+	<h1>Snake</h1>
 	<p>Pause: ESC<br>Control: Space & Arrow Keys</p>
-	<p>Custom changing speed!</p>
+	<p>Custom speed!</p>
 	<p>Made by Howard & Nabil!</p></div>
 	<div id="right"><p>count:</p></div>
 	<div id="count"></div>
